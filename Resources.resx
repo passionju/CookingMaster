@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\人物1@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\人物2@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coffee.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DishList1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OIP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DishList2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20181120174150_84.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DishList3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ed1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\結算畫面一顆星背景.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ed2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\結算畫面兩顆星背景圖.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ed3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\結算畫面三顆星背景圖.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fishsushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9c3d0f72c4d69066.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hamberger2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamberger2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\japan.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="namaita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0711760_PE728452_S5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0712367_PE728786_S5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\碗飯.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="voice_mute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="voice_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="主畫面背景圖" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\主畫面背景圖.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="出餐口" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\出餐口.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="出餐口_完整漢堡1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\出餐口+完整漢堡1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="出餐口_完整漢堡2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\出餐口+完整漢堡2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="垃圾桶" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\垃圾桶.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="垃圾桶_蛋" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\垃圾桶_蛋.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="完整漢堡1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\完整漢堡1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="完整漢堡2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\完整漢堡2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="巧克力" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\巧克力.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="巧克力蛋糕" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\巧克力蛋糕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="巧克力麵團" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\巧克力麵團.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="日式餐廳背景圖" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\日式餐廳背景圖.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子_攪拌機_巧克力_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子+攪拌機(巧克力).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子_攪拌機_空_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子+攪拌機(空).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子_攪拌機_草莓_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子+攪拌機(草莓).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子_攪拌機_蜂蜜_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子+攪拌機(蜂蜜).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子_烤箱_有蛋糕_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子+烤箱(有蛋糕).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子_烤箱_空_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子+烤箱(空).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子_砧板" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子+砧板.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子_蛋" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子_蛋.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子_鍋架_平底鍋" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子+鍋架+平底鍋.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子_鍋架_平底鍋_漢堡肉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子+鍋架+平底鍋+漢堡肉.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桌子_飯鍋" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\桌子+飯鍋.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="洗碗槽" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\洗碗槽.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="洗碗槽_髒盤子" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\洗碗槽+髒盤子.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="海苔" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\海苔.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="漢堡肉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\漢堡肉.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="煎" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E1594015601211.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="生漢堡肉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\生漢堡肉.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="生菜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\生菜.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="生菜_前_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\生菜(前).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="番茄" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\番茄.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="番茄切片" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\番茄切片.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="盤子" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\盤子.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="砧板_生菜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\砧板+生菜.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="砧板_番茄" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\砧板+番茄.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="砧板_蝦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\砧板+蝦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="砧板_魚" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\砧板+魚.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="米飯" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\米飯.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="結束遊戲" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\結束遊戲.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="美式餐廳背景圖" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\美式餐廳背景圖.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="草莓" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\草莓.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="草莓蛋糕" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\草莓蛋糕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="草莓麵團" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\草莓麵團.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="蛋糕店背景圖" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\蛋糕店背景圖.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="蜂蜜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\蜂蜜.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="蜂蜜蛋糕" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\蜂蜜蛋糕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="蜂蜜麵團" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\蜂蜜麵團.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="蝦仁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5414_G_1562746018669.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="蝦前" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\蝦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="蝦後" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\蝦後.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="訂單完整漢堡1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\訂單完整漢堡1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="訂單完整漢堡2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\訂單完整漢堡2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="訂單巧克力蛋糕" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\訂單巧克力蛋糕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="訂單草莓蛋糕" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\訂單草莓蛋糕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="訂單蜂蜜蛋糕" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\訂單蜂蜜蛋糕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="訂單豆皮壽司" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\訂單豆皮壽司.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="訂單鮮蝦壽司" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\訂單鮮蝦壽司.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="訂單鮮魚壽司" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\訂單鮮魚壽司.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="豆皮" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\豆皮.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="豆皮壽司" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6b7d5f26bee578e0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="豆皮壽司1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\豆皮壽司.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="起司" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\起司.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="開始遊戲" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\開始遊戲.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="雞蛋" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\雞蛋.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_巧克力" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+巧克力.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_海苔" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+海苔.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_漢堡肉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+漢堡肉.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_生漢堡肉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+生漢堡肉.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_生菜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+生菜.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_番茄" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+番茄.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_米飯" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+米飯.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_草莓" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+草莓.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_蜂蜜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+蜂蜜.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_蝦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+蝦.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_豆皮" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+豆皮.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_起司" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+起司.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_雞蛋" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+雞蛋.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_魚" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+魚.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_麵包" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+麵包.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食材箱_麵粉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\食材箱+麵粉.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="髒盤子" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\髒盤子.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="魚" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\魚.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="魚切後" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\魚(切後).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="鮮蝦壽司" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\鮮蝦壽司.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="鮮魚壽司" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\鮮魚壽司.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="麵包" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\麵包.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="麵粉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\麵粉.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
